@@ -6,7 +6,7 @@ arr = []
 if number <= 0 
   false
 elsif number == 1 
-  true
+  false
 else
   numbers.each { |x| arr << x if number%x==0}
     if arr.size <= 1 
