@@ -4,7 +4,9 @@ def prime?(number)
 numbers = Array (2...number)
 arr = []
 if number <= 0 
-  false 
+  false
+  elsif number == 1 
+  true
 else
   numbers.each { |x| arr << x if number%x==0}
     if arr.size <= 1 
