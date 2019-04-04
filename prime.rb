@@ -8,7 +8,7 @@ arr = []
       false
       binding.pry
     else
-      putstrue
+      puts true
       end
       end
       
