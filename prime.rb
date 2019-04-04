@@ -8,7 +8,7 @@ arr = []
       false
       
     else
-      print true
+      true
       #binding.pry
       end
       end
