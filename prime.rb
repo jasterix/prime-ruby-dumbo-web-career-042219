@@ -7,3 +7,4 @@ def prime?(number)
       puts false
     end
   end
+end
