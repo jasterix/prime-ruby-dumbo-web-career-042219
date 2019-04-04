@@ -5,7 +5,7 @@ numbers = Array (2...number)
 arr = []
 if number <= 0 
   false
-  elsif number == 1 
+elsif number == 1 
   true
 else
   numbers.each { |x| arr << x if number%x==0}
