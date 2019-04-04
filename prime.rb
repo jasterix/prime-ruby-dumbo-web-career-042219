@@ -4,10 +4,10 @@ def prime?(number)
 numbers = Array (2...number)
 arr = []
   numbers.each { |x| arr << x if number%x==0}
-    if arr.size > 1
-      false
+    if arr.size <= 1 || x<0
+      true
     else
-       true
+       false
       #binding.pry
       end
       end
