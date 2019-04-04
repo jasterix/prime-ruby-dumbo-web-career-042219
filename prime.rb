@@ -3,7 +3,7 @@ require 'pry'
 def prime?(number)
 numbers = Array (2...number)
 arr = []
-if number < 0 
+if number <= 0 
   false 
 else
   numbers.each { |x| arr << x if number%x==0}
