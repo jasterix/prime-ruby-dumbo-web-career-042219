@@ -4,7 +4,8 @@ def prime?(number)
     if number%x==0
       puts false
     else
-      puts true
+      if x**2 >= number
+      else
     end
   end
 end
