@@ -1,11 +1,12 @@
 # Add  code here!
 def prime?(number)
-  2...number.each do |x|
-    if number%x==0
-      puts false
+numbers = Array (2...number)
+arr = []
+  numbers.each { |x| arr << x if number%x==0}
+    if arr.size == 0
+      puts true
     else
-      if x**2 >= number
-      else
+      puts false
+      end
+      end
     end
-  end
-end
