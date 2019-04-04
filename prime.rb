@@ -9,7 +9,7 @@ arr = []
       
     else
       print true
-      binding.pry
+      #binding.pry
       end
       end
       
